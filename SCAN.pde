@@ -109,7 +109,7 @@ void licz(){
    
     String getFile="photo-"+nf(itr+1, 3)+".png";
     PImage skan=loadImage(getFile);
-    String getFile2="odzw-"+nf(itr+1, 3)+".png";
+    String getFile2="photoProcess-"+nf(itr+1, 3)+".png";
     PImage photoProcess=createImage(skan.width, skan.height, RGB);
     skan.loadPixels();
     photoProcess.loadPixels();
